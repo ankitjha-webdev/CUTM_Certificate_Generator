@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+.App {
+    font-family: "Hachi Maru Pop", cursive;
+    display: flex;
+    padding: 15px;
+}
+
+.App .Meta {
+    flex-grow: 1;
+    padding-right: 15px;
+}
+
+.App .Meta input {
+    font-family: inherit;
+    padding: 1rem;
+    width: 100%;
+    /* box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+    border: 2px solid rgba(0, 0, 0, 0.25); */
+    border-radius: 5px;
+    /* padding: 10px; */
+    background-color: #fff;
+    border: none;
+    font-size: 16px;
+    /* margin-left:20px; */
+    margin-top: 1rem;
+}
+
+.inp-cls {
+    background-color: rgba(255, 255, 255, 0.966);
+    width: 500px;
+    height: 60px;
+    border: none;
+    /* padding-top:10px; */
+    border-radius: 8px;
+    box-shadow: 2px 12px 12px #d3d3d6;
+}
+
+.App .Meta input:focus, button:focus {
+    box-shadow: none;
+    border: none;
+    outline-width: none;
+}
+
+.App .Meta input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.App .Meta button {
+    /* padding: 10px 15px;
+    border: 2px solid #87ceeb;
+    background-color: #33f3fb;
+    font-family: inherit;
+    margin: 20px 0;
+    border-radius: 10px;
+    cursor: pointer; */
+    color: #fff;
+    background-color: #dc3e2f;
+    font-size: 22px;
+    padding: 0;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    width: 9.5rem;
+    height: 5%;
+    float: right;
+    position: absolute;
+    margin-left: -10rem;
+    margin-top: 0.9rem;
+
+}
+
+.App #downloadWrapper {
+    width: 80%;
+}
+
+.App #certificateWrapper {
+    box-shadow: 0 0 5px #000;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.App #certificateWrapper img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.App #certificateWrapper p {
+    font-family: "Staatliches", cursive;
+    margin: 0;
+    position: absolute;
+    left: 33rem;
+    top: 27rem;
+    font-size: 40pt;
+}
+
+/* footer-copyright */
+.footer-copyright {
+    padding-top: 2rem;
+    background-color: #363b4e;
+    color: #d3d3d6;
+    display: grid;
+    place-items: center;
+    height: auto;
+}
+
+h1 {
+    color: #c00000;
+    /* text-shadow: 2px 2px #dc3e2f; */
+    font-size:2rem;
+}
+
+h3 {
+    /* display: grid;
+    place-items: center;
+    height: auto; */
+}
+a{
+    font-size: medium;
+}
+a i{
+    font-size: 34px;
+    display: grid;
+    place-items: center;
+    height: auto;
+    margin-left: 6rem;
+    padding: 1%;
+    margin: 0%;
+
+}
+#icon{
+    font-size: 34px;
+    /* display: grid;
+    place-items: center;
+    height: auto;
+    background-color: #fff; */
+}
+.icons{
+    
+    background-color:#363b4e;
+}
