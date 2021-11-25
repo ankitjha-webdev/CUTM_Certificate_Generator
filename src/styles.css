@@ -93,7 +93,7 @@ button:focus {
 }
 
 .App #certificateWrapper p {
-    font-family: "Staatliches", cursive;
+    font-family: serif;
     margin: 0;
     position: absolute;
     left: 30rem;
