@@ -96,8 +96,8 @@ button:focus {
     font-family: serif;
     margin: 0;
     position: absolute;
-    left: 27rem;
-    top: 23rem;
+        left: 59vh;
+    top: 50vh;
     font-size: 40pt;
 }
 
