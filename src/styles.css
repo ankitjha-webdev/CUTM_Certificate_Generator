@@ -94,10 +94,8 @@ button:focus {
 
 .App #certificateWrapper p {
     font-family: serif;
-    margin: 0;
     position: absolute;
-    margin-left: 27rem;
-    margin-top: 25rem;
+    margin: 37% 0 0 44%;
     font-size: 40pt;
 }
 
