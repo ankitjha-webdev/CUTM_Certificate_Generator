@@ -62,7 +62,7 @@ class App extends Component {
         <div id="downloadWrapper" ref={this.certificateWrapper}>
           <div id="certificateWrapper">
             <p>{this.state.Name}</p>
-             <img src="/Participatant-CERTIFICATE.png" alt="Certificate" />
+             <img src="/Participatant-CERTIFICATE-18format.png" alt="Certificate" />
           </div>
         </div>
       </div>
